@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.laptop{
+    background-image: url(../images/laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.laptop > h1{
+    color: aqua;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 10px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
