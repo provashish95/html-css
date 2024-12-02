@@ -6,7 +6,12 @@
     font-family: "Work Sans", sans-serif;
 }
 
-/* common style... */
+/* common style start here... */
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 .primary-btn {
     border-radius: 8px;
     background: #FF900E;
@@ -18,11 +23,17 @@
     margin: 32px 0px 50px 0px;
     cursor: pointer;
 }
+.description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 24px;
+    line-height: 26px;
+}
+/* common style end here ... */
 
-/* common style... */
 
-
-/* Header style here... */
+/* Header style start here... */
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -33,13 +44,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
-.nav-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
-
 nav>ul {
     display: flex;
 }
@@ -56,9 +60,10 @@ nav li a {
     color: #424242;
 }
 
-/* Header style here... */
+/* Header style end here... */
 
-/* banner style here... */
+
+/* banner style start here... */
 .banner{
     margin-top: 30px;
 }
@@ -83,15 +88,16 @@ nav li a {
 .banner img {
     width: 100%;
 }
-/* banner style here... */
+/* banner style end here... */
 
-/* Main secttion style here... */
+
+/* Main secttion style start here... */
 main{
     max-width: 1440px;
     margin: 70px auto;
 }
 
-/* Teams section style here... */
+/* Teams section style start here... */
 .teams-container{
     display: flex;
     align-items: center;
@@ -119,13 +125,11 @@ main{
 .teams-title .text-features{
     color: #FF900E;
 }
-.teams-description{
-    color: #727272;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 24px;
-    line-height: 26px;
-}
+
+/* Teams section style end here... */
+
+
+/* Main secttion style start here... */
 
 
 
