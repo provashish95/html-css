@@ -98,7 +98,7 @@ nav li a {
 
 
 /* Main secttion style start here... */
-main {
+main, footer {
     max-width: 1440px;
     margin: 70px auto;
 }
@@ -197,6 +197,24 @@ main {
 }
 /* Sponspors section style end here... */
 /* Main secttion style start here... */
+
+/* Footer section style start here... */
+footer{
+    background: rgba(255, 144, 14, 0.10);
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+footer> p{
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+/* Footer section style end here... */
 
 
 
