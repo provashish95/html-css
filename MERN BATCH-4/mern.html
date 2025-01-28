@@ -54,6 +54,37 @@
             /* position: sticky;
             top: 100px; */
         }
+
+        /* ul{
+            border: 1px solid black;
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image: url(../images/icons/facebook.png);
+        }
+        ul > li{
+            border: 1px solid black;
+        } */
+
+
+
+        .container{
+            display: flex;
+            gap: 10px;
+            list-style-type: none;
+        }
+        .container .menu{
+        }
+        .container .menu .menu-item{
+            text-decoration: none;
+            display: inline-block;
+            background-color: rgb(8, 173, 118);
+            color: white;
+            padding: 10px 20px;
+        }
+        .container .menu .menu-item:hover {
+            background-color: rgb(3, 100, 68);
+            transition: 3s;
+        }
     </style>
 </head>
 <body>
@@ -62,5 +93,20 @@
         <div class="child-box"></div>
         <h1>provashish</h1>
     </div>
+
+
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+    </ul>
+
+
+    <ul class="container">
+        <li class="menu"><a class="menu-item" href="#">Home</a></li>
+        <li class="menu"><a class="menu-item" href="#">About</a></li>
+        <li class="menu"><a class="menu-item" href="#">Blog</a></li>
+        <li class="menu"><a class="menu-item" href="#">Contact</a></li>
+    </ul>
 </body>
 </html>
